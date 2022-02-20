@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "VisbyCF", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #24242c;
+}
+
+div {
+  animation: fadein2 .2s linear;
+  transition: all .2s linear;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+@keyframes fadein2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: auto;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+p {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
